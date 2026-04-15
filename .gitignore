@@ -1,0 +1,25 @@
+# Build output (large binary files, no need to push)
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# STM32CubeIDE workspace metadata (machine-specific)
+.settings/
+.cproject
+.project
+*.launch
+Makefile
+*.mk
+sources.mk
+objects.mk
+subdir.mk
+
+# OS files
+.DS_Store
+Thumbs.db
